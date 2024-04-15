@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "praju is Compiling the java source code"
                 sh "java --version"
-                sh "hello-world.py"
+                sh 'print hello-world.py'
             }
         }
 
