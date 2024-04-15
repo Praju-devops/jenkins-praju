@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "praju is Compiling the java source code"
-                sh "javac Hello.java"
+                sh "java Hello.java"
             }
         }
 
