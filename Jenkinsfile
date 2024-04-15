@@ -8,7 +8,6 @@ pipeline {
                 sh 'python hello-world.py'
             }
         }
-            }
-        }
+
     }
 }
