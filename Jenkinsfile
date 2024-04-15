@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 echo "praju is Compiling the java source code"
-                sh 'echo jenkins Pipeline with Jenkinsfile'
                 sh "java --version"
                 sh "hello-world.py"
             }
